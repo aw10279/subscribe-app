@@ -2,7 +2,7 @@ import time
 
 def start_timer():
     """Starts a 10-minute timer."""
-    duration = 10
+    duration = 20
     print(f'Starting {duration} minute timer...')
     time.sleep(duration * 60)
     print('Time is up!')
